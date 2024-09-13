@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#countdown-display {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #e63946;
+}
+
+.quantity-container {
+    margin-bottom: 20px;
+}
+
+#quantity {
+    padding: 8px;
+    font-size: 16px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+#purchase-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1d3557;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#purchase-button:hover {
+    background-color: #457b9d;
+}
+
+#time-added-display {
+    font-size: 18px;
+    margin-top: 20px;
+}
